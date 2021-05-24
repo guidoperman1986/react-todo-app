@@ -6,11 +6,13 @@ export const InputBox = (props) => {
     function newTodo(event){
         const {value} = event.target;
 
-        console.log(value);
-        
+        setTodo(prevTodo=>[...prevTodo, value])        
     }
 
-    function addTodo(){
+    function addTodo(event){
+        props.addTodo(todo);
+
+        event.preventDefault();
     }
 
 
