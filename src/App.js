@@ -14,9 +14,9 @@ function App() {
   }
 
   return (
-    <div>
-      <TodoList todos={todos}></TodoList>
-      <InputBox onSubmit={addTodo}></InputBox>
+    <div className="container">
+      <TodoList className="todo" todos={todos}></TodoList>
+      <InputBox onAdd={addTodo}></InputBox>
     </div>
   );
 }

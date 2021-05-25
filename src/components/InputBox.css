@@ -1,0 +1,23 @@
+.input{
+    margin: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: bold;
+    border: 1px solid wheat;
+}
